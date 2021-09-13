@@ -1,0 +1,80 @@
+.road-map {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #b0f7b1 0%, #e3aeff 100%);
+}
+.internal-nav {
+  text-align: left;
+}
+.internal-nav div {
+  margin-bottom: 5vh;
+}
+.internal-nav svg {
+  width: 45px;
+  height: 45px;
+  transition: all 0.5s;
+  fill: #fa346e;
+}
+.internal-nav span {
+  transition: all 0.5s;
+  color: white;
+}
+.internal-nav p {
+  margin-right: 1vw;
+  padding: 15px;
+  transition: all 0.5s;
+  border: 1px solid #fa346e;
+  border-radius: 50%;
+  background: white;
+}
+.internal-nav h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.container-internal-nav {
+  padding: 3vh 18vw;
+}
+.vertical-divider {
+  height: 32%;
+  margin-left: 40px;
+  margin-top: 10vh;
+  position: absolute;
+  width: 1px;
+  background-color: #fa346e;
+}
+.road-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.road-map > h1 {
+  padding-bottom: 2vh;
+  font-family: "RocknRoll One", sans-serif;
+}
+.internal-nav {
+  position: relative;
+  margin: 3vh 0;
+  z-index: 10;
+  display: flex;
+  align-items: flex-start;
+}
+
+.internal-nav:hover.internal-nav p {
+  background: #fa346e;
+}
+.internal-nav:hover.internal-nav svg {
+  fill: white;
+}
+.internal-nav:hover.internal-nav span {
+  color: #c36;
+}
+@media screen and (max-width: 568px) {
+  .vertical-divider {
+    height: 39%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .vertical-divider {
+    height: 43%;
+  }
+}

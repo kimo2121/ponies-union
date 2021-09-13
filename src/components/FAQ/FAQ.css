@@ -1,0 +1,30 @@
+.arrow {
+  transform: rotate(0);
+}
+.arrow.active {
+  color: #6c41d8;
+  transform: rotate(90deg);
+}
+.question-styles {
+  font-size: 28px !important;
+  text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+}
+.question-styles.active {
+  color: #6c41d8;
+}
+.faq-inner {
+  width: 1060px;
+  border: 5px solid #f85185;
+  padding: 20px 50px;
+  margin: 0 auto;
+  color: black;
+}
+.faq-inner h1 {
+  font-weight: 500;
+  text-align: left;
+}
+@media screen and (max-width: 1200px) {
+  .faq-inner {
+    width: 90%;
+  }
+}
