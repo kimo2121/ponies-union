@@ -1,11 +1,7 @@
 .gallery h1 {
-  width: fit-content;
-  margin-right: auto;
   padding-bottom: 2vh;
   font-family: "RocknRoll One", sans-serif;
-  margin-left: auto;
   margin-top: 0;
-  border-bottom: 1px solid black;
 }
 .gallery {
   background-color: transparent;

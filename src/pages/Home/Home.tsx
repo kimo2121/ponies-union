@@ -24,7 +24,7 @@ const Home: React.FC = () => {
           Welcome to Trick Ponies
         </h1>
         <img src={unicorn} alt="" />
-        <p>
+        <p data-aos="zoom-in" data-aos-duration="500">
           Welcome to The Poniez Union, the place to be if you are considering
           becoming a Poniez collector, already a seasoned Poniez connoisseur or
           anything in between.{" "}
@@ -39,11 +39,11 @@ const Home: React.FC = () => {
           started thinking, talking, imbibing, and having fun. What happened
           after is now history. The Poniez were born
         </p>
-        <p>
+        <p data-aos="zoom-in" data-aos-duration="500">
           The Poniez Union is the official clubhouse for all Poniez collectors,
           wether you have 1 or 100, you’re always welcome here
         </p>
-        <p>
+        <p data-aos="zoom-in" data-aos-duration="500">
           But back to the first question, why more pixel art?! We really don't
           have the answer you are looking for and maybe this is not the right
           place for you if you’re still asking that question, which is totally
@@ -52,7 +52,7 @@ const Home: React.FC = () => {
           as your twitter/instagram avatar, they all have some fun traits and
           generally they should put a smile on your face
         </p>
-        <p>
+        <p data-aos="zoom-in" data-aos-duration="500">
           Check out the FAQ below, it should answer most housekeeping questions
           related to the technical aspects, minting etc. The Poniez roadmap is
           also right below and it points out some fun milestones and plans for

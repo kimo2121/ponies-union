@@ -15,7 +15,7 @@ const Heading = styled.h1`
   color: #000000;
   text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
   font-family: "RocknRoll One", Sans-serif;
-  font-size: 28px;
+  font-size: 32px;
 `;
 const Title = styled.p`
   font-size: 16px;
