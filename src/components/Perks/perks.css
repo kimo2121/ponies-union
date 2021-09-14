@@ -11,8 +11,11 @@
 }
 .perk-ranks {
   margin: 4vh 2vw;
+  color: rgb(59, 59, 129);
 }
-
+.inner-perks h3 {
+  color: rgb(59, 59, 129);
+}
 @media screen and (max-width: 1200px) {
   .inner-perks {
     width: 90%;
