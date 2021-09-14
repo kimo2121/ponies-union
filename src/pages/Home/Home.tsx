@@ -10,6 +10,7 @@ import CustomizedAccordions from "../../components/FAQ/FAQ";
 import Disclaimer from "../../components/Disclaimer/Disclaimer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Perks from "../../components/Perks/Perks";
 
 const Home: React.FC = () => {
   useEffect(() => {
@@ -21,7 +22,7 @@ const Home: React.FC = () => {
     <div className="home">
       <div className="banner">
         <h1 data-aos="slide-right" data-aos-duration="500">
-          Welcome to Trick Ponies
+          Welcome to The Ponies Union
         </h1>
         <img src={unicorn} alt="" />
         <p data-aos="zoom-in" data-aos-duration="500">
@@ -59,9 +60,10 @@ const Home: React.FC = () => {
           the future. Want to know a secret? The future looks better with Poniez
         </p>
       </div>
-      <About />
+      {/* <About /> */}
       <Timer mintStartAt={1633138400} />
-      <Gallery />
+      {/* <Gallery /> */}
+      <Perks />
       <RoadMap />
       <div className="faq-section">
         <h1>FAQs</h1>
@@ -70,7 +72,7 @@ const Home: React.FC = () => {
         </div>
       </div>
       <OurTeam />
-      <Disclaimer />
+      {/* <Disclaimer /> */}
     </div>
   );
 };

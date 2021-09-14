@@ -29,7 +29,7 @@ const OurTeam: React.FC = () => {
         together. Feel free to reach out to him on Twitter or email him
         poniezcommander@poniezunion.com
       </p>
-      <div className="our-team-inner">
+      {/* <div className="our-team-inner">
         <div className="members-container">
           <div
             data-aos="slide-right"
@@ -55,7 +55,7 @@ const OurTeam: React.FC = () => {
             <p>Ui/UX Designer</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -27,9 +27,6 @@ const Navbar: React.FC = () => {
         <div className="web-nav">
           <div className="logo">Logo</div>
           <div className="nav-links">
-            <Link smooth={true} duration={800} to="Home">
-              Gallery
-            </Link>
             <Link smooth={true} duration={800} to="About">
               RoadMap
             </Link>

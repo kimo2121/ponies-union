@@ -89,11 +89,11 @@ const Timer = ({ mintStartAt }: any) => {
   return timerVisible ? (
     <Card>
       <TimerDivider style={{ height: "30px", fill: "white" }} />
-      <Heading>{"Trick Ponies Counter"}</Heading>
-      <Title>
+      {/* <Heading>{"Trick Ponies Counter"}</Heading> */}
+      {/* <Title>
         Boost sales use our most amazing widget. Display with colorful thin line
         style.
-      </Title>
+      </Title> */}
       <RowContainer className="timer-container">
         <Item className="days-cirlce">
           <ItemValue id="days">

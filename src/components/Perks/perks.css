@@ -1,0 +1,25 @@
+.perks {
+  font-family: "RocknRoll One", sans-serif;
+  background-color: transparent;
+  padding: 20px;
+  background-image: linear-gradient(180deg, #f1a5e1 0%, #8febd4 100%);
+}
+.inner-perks {
+  text-align: left;
+  width: 1060px;
+  margin: 0 auto;
+}
+.perk-ranks {
+  margin: 4vh 2vw;
+}
+
+@media screen and (max-width: 1200px) {
+  .inner-perks {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 568px) {
+  .perks h1 {
+    font-size: 24px;
+  }
+}
