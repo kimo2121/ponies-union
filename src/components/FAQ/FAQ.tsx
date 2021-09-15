@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FAQTypes } from "./types";
 import "./FAQ.css";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const CustomizedAccordions: React.FC<FAQTypes> = () => {
+  useEffect(() => {
+    AOS.init({
+      // duration: 1400,
+    });
+  }, []);
   return (
-    <div className="faq-inner">
+    <div data-aos="slide-right" data-aos-duration="500" className="faq-inner">
       <h1>Why should I care?</h1>
       <p>
         You are right, why should you care? The Poniez are another pixelated NFT

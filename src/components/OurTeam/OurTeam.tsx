@@ -18,13 +18,13 @@ const OurTeam: React.FC = () => {
   return (
     <div className="our-team">
       <h1>Meat Our Team</h1>
-      <p>
+      <p data-aos="slide-up" data-aos-duration="500">
         The Poniez are a cool, inclusive, and a very worldwide bunch. Much like
         the team involved in bringing them to you now. The Poniez team is
         comprised of a few people here and a few people there. The US, the UK,
         Southeast Asia, like we said at the start..a worldwide bunch :)
       </p>
-      <p>
+      <p data-aos="slide-up" data-aos-duration="500">
         The Poniez Commander in Chief is the guy who has brought it all
         together. Feel free to reach out to him on Twitter or email him
         poniezcommander@poniezunion.com

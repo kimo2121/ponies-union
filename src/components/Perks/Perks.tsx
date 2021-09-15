@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./perks.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Perks: React.FC = () => {
+  useEffect(() => {
+    AOS.init({
+      // duration: 1400,
+    });
+  }, []);
   return (
     <div className="perks">
       <h1>Perks</h1>
-      <div className="inner-perks">
+      <div
+        data-aos="slide-left"
+        data-aos-duration="500"
+        className="inner-perks"
+      >
         <p>
           We have created a fun and unique collection of Poniez. To celebrate
           the launch of season 1 we have some fun perks for everyone involved

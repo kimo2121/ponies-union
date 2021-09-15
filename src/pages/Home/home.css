@@ -34,6 +34,7 @@
   margin: 5vh auto;
 }
 .faq-section {
+  padding-top: 5vh;
   background-color: transparent;
   background-image: linear-gradient(180deg, #e3aeff 0%, #e3aeff 100%);
 }
