@@ -22,7 +22,7 @@ const Home: React.FC = () => {
     <div className="home">
       <div className="banner">
         <h1 data-aos="slide-right" data-aos-duration="500">
-          Welcome to The Ponies Union
+          Welcome to The Poniez Union
         </h1>
         <img src={unicorn} alt="" />
         <p data-aos="zoom-in" data-aos-duration="500">
@@ -62,17 +62,15 @@ const Home: React.FC = () => {
       </div>
       {/* <About /> */}
       <Timer mintStartAt={1633138400} />
-      {/* <Gallery /> */}
-      <Perks />
-      <RoadMap />
       <div className="faq-section">
         <h1>FAQs</h1>
         <div className="question-container">
           <CustomizedAccordions />
         </div>
       </div>
+      <RoadMap />
+      <Perks />
       <OurTeam />
-      {/* <Disclaimer /> */}
     </div>
   );
 };

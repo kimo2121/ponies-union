@@ -44,9 +44,6 @@ const Navbar: React.FC = () => {
             <a className="discord" href="/">
               <FaDiscord />
             </a>
-            <a className="facebook" href="/">
-              <FaFacebook />
-            </a>
           </div>
         </div>
         <Button className="metamsk-btn" label="Metamask" />
@@ -108,9 +105,6 @@ const Navbar: React.FC = () => {
             </a>
             <a className="discord" href="/">
               <FaDiscord />
-            </a>
-            <a className="facebook" href="/">
-              <FaFacebook />
             </a>
           </div>
         </div>

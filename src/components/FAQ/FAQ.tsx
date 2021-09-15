@@ -39,14 +39,14 @@ const CustomizedAccordions: React.FC<FAQTypes> = () => {
         <h3>Can I mint from the contract directly?</h3>
         <p>Yes you can, the contract address is here</p>
       </div>
-      <h1>What is planned for the future </h1>
+      <h1>What is planned for the future</h1>
       <p>
         The Poniez Union as you see it currently is quite good, its not great
         but its good. We have plans for some upgrades to The Poniez Union. The
         Poniez are a social bunch and like being around other people and other
         Poniez. Watch this space for
       </p>
-      <h1>Is there a “Pre-Mint” </h1>
+      <h1>Is there a “Pre-Mint”</h1>
       <p>
         1-100 are being held back for two reasons. Firstly we want to reward the
         team for their hard work, they are excited to start their Poniez
