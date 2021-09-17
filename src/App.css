@@ -1,4 +1,18 @@
 .App {
   text-align: center;
   overflow: hidden;
+  font-family: "Quicksand-Bold.ttf";
+  font-family: "Quicksand-Medium.ttf";
+}
+@font-face {
+  font-family: "Quicksand-Bold.ttf";
+  font-family: "Quicksand-Medium.ttf";
+  font-family: "Quicksand-SemiBold.ttf";
+  font-family: "Quicksand-Regular.ttf";
+  font-family: "Quicksand-Light.ttf";
+  src: url(/src/assets/fonts/static/Quicksand-Bold.ttf);
+  src: url(/src/assets/fonts/static/Quicksand-SemiBold.ttf);
+  src: url(/src/assets/fonts/static/Quicksand-Medium.ttf);
+  src: url(/src/assets/fonts/static/Quicksand-Regular.ttf);
+  src: url(/src/assets/fonts/static/Quicksand-Light.ttf);
 }

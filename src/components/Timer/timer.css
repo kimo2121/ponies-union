@@ -3,6 +3,7 @@
 .minutes-cirlce,
 .seconds-cirlce {
   background-image: url(../../assets/images/Group\ 0.png);
+  box-shadow: 0px 0px 5px 1px black;
   background-size: 100% 100%;
 }
 .hours-cirlce {

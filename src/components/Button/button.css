@@ -4,13 +4,18 @@
   font-size: 16px;
   padding: 5px 20px;
   -webkit-border-radius: 4px;
+  box-shadow: 0px 0px 3px 1px black;
   border-radius: 4px;
   color: white;
-  margin-top: 0.8vh;
   border: none;
-  transition: all 0.4s;
+  transition: color 0.4s;
 }
 .metamsk-btn:hover {
   color: black;
   cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+  .metamsk-btn {
+    margin-top: 1.3vh;
+  }
 }

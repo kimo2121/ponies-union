@@ -16,46 +16,40 @@ const OurTeam: React.FC = () => {
     });
   }, []);
   return (
-    <div className="our-team">
-      <h1>Meat Our Team</h1>
-      <p data-aos="slide-up" data-aos-duration="500">
+    <div id="Team" className="our-team">
+      <h1>Meet Our Team</h1>
+      <p data-aos="zoom-in" data-aos-duration="500">
         The Poniez are a cool, inclusive, and a very worldwide bunch. Much like
         the team involved in bringing them to you now. The Poniez team is
         comprised of a few people here and a few people there. The US, the UK,
         Southeast Asia, like we said at the start..a worldwide bunch :)
       </p>
-      <p data-aos="slide-up" data-aos-duration="500">
+      <p data-aos="zoom-in" data-aos-duration="500">
         The Poniez Commander in Chief is the guy who has brought it all
         together. Feel free to reach out to him on Twitter or email him
-        poniezcommander@poniezunion.com
+        poniezcommander@poniezunion.com. He will also be available within any
+        future communities as soon as they are running
       </p>
-      {/* <div className="our-team-inner">
-        <div className="members-container">
-          <div
-            data-aos="slide-right"
-            data-aos-duration="800"
-            className="members"
-          >
-            <img src={team_5} alt="" />
-            <h2>Harrison Hudson</h2>
-            <p>WordPress Dev</p>
-          </div>
-          <div className="members">
-            <img src={team_11} alt="" />
-            <h2>Elizabeth Sofia</h2>
-            <p>WordPress Dev</p>
-          </div>
-          <div
-            data-aos="slide-left"
-            data-aos-duration="800"
-            className="members"
-          >
-            <img src={team_17} alt="" />
-            <h2>Lucy Evelyn</h2>
-            <p>Ui/UX Designer</p>
-          </div>
-        </div>
-      </div> */}
+      <p data-aos="zoom-in" data-aos-duration="500">
+        The Poniez team has lots of experience in many online spaces, from all
+        areas of the web. What we can tell you confidently, is that the artists
+        and developers involved in The Poniez project are very good at what they
+        do and have loved working on Poniez and are excited for what the future
+        holds
+      </p>
+      <p data-aos="zoom-in" data-aos-duration="500">
+        The Poniez Commander did not start his life out planning to be the
+        Poniez Commander, it just happened that way. Someone needed to step up
+        and be the Poniez Commander in Chief, its a tough job but someone has to
+        do it. As the commander says, the future looks bright, but its brighter
+        with Poniez
+      </p>
+      <p data-aos="zoom-in" data-aos-duration="500">
+        P.S. Watch this space, the commander is talking with a few artists who
+        want to be a part of season 2 already. Guest artists will be hopping in
+        here and there and season one collectors are the prime targets for guest
+        artist airdrops
+      </p>
     </div>
   );
 };

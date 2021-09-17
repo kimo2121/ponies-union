@@ -6,7 +6,7 @@ import { FaTwitter } from "react-icons/fa";
 import { Link } from "react-scroll";
 import Button from "../Button/Button";
 import { HiMenu } from "react-icons/hi";
-
+import Logo from "../../assets/images/Logo.png";
 const Navbar: React.FC = () => {
   const [menu, setMenu] = useState(false);
 
@@ -25,32 +25,39 @@ const Navbar: React.FC = () => {
     <div className="nav-bar">
       <div className="some-wrapper">
         <div className="web-nav">
-          <div className="logo">Logo</div>
+          <div className="logo">
+            <img src={Logo} alt="" />
+          </div>
           <div className="nav-links">
             <Link smooth={true} duration={800} to="About">
-              RoadMap
-            </Link>
-            <Link smooth={true} duration={800} to="Mint">
               About Us
             </Link>
-            <Link smooth={true} duration={800} to="RoadMap">
+            <Link smooth={true} duration={800} to="FAQ">
               FAQ
+            </Link>
+            <Link smooth={true} duration={800} to="RoadMap">
+              RoadMap
+            </Link>
+            <Link smooth={true} duration={800} to="Team">
+              Team
             </Link>
           </div>
           <div className="external-links">
             <a className="twitter" href="/">
               <FaTwitter />
             </a>
-            <a className="discord" href="/">
+            {/* <a className="discord" href="/">
               <FaDiscord />
-            </a>
+            </a> */}
           </div>
         </div>
-        <Button className="metamsk-btn" label="Metamask" />
+        <Button className="metamsk-btn" label="Connect" />
       </div>
       <div className="slide-menu">
         <div className="slide-outter">
-          <div className="logo">Logo</div>
+          <div className="logo">
+            <img src={Logo} alt="" />
+          </div>
           <button onClick={toggleAccordion} className="menu-slide-btn">
             Menu
             <HiMenu
@@ -64,29 +71,15 @@ const Navbar: React.FC = () => {
           className="accordion__content"
         >
           <Link
-            // className="accordion__text"
-            onClick={toggleAccordion}
-            smooth={true}
-            duration={800}
-            to="Home"
-          >
-            HOME
-          </Link>
-          <Link
             onClick={toggleAccordion}
             smooth={true}
             duration={800}
             to="About"
           >
-            RoadMap
-          </Link>
-          <Link
-            onClick={toggleAccordion}
-            smooth={true}
-            duration={800}
-            to="Mint"
-          >
             About Us
+          </Link>
+          <Link onClick={toggleAccordion} smooth={true} duration={800} to="FAQ">
+            FAQ
           </Link>
           <Link
             onClick={toggleAccordion}
@@ -94,18 +87,25 @@ const Navbar: React.FC = () => {
             duration={800}
             to="RoadMap"
           >
-            About Us
+            RoadMap
           </Link>
-          <Link onClick={toggleAccordion} smooth={true} duration={800} to="FAQ">
-            FAQ
+          <Link
+            // className="accordion__text"
+            onClick={toggleAccordion}
+            smooth={true}
+            duration={800}
+            to="Team"
+          >
+            Team
           </Link>
+
           <div className="external-links">
-            <a className="twitter" href="/">
+            <a className="twitter" href="https://twitter.com/poniezunion">
               <FaTwitter />
             </a>
-            <a className="discord" href="/">
+            {/* <a className="discord" href="/">
               <FaDiscord />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

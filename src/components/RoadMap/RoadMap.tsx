@@ -1,49 +1,44 @@
 import React, { useEffect } from "react";
 import "./roadMap.css";
-import { ReactComponent as Diamond } from "../../assets/icons/diamond.svg";
-import { ReactComponent as Contract } from "../../assets/icons/contract.svg";
-import { ReactComponent as Download } from "../../assets/icons/download.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 const RoadMap: React.FC = () => {
   useEffect(() => {
-    AOS.init({
-      // duration: 1400,
-    });
+    AOS.init({});
   }, []);
   return (
-    <div className="road-map">
+    <div id="RoadMap" className="road-map">
+      {/* <Header header="ROAD MAP" /> */}
       <h1>RoadMap</h1>
       <div
-        data-aos="slide-up"
-        data-aos-duration="800"
-        className="container-internal-nav"
+        data-aos="fade-in"
+        data-aos-duration="500"
+        className="vertical-time-line"
       >
-        <div className="internal-nav">
-          <div>
-            <h1>Make a Profile</h1>
-            <span>
-              A mobile landing page is the important and essentials amount
-              product
-            </span>
+        <div className="inner-line left">
+          <span className="vertical-divider web-v-divider"></span>
+          <div className="percent left">Sept 2021</div>
+          <div className="line-detail left">
+            <h4>Poniez Season 1 Launch</h4>
           </div>
         </div>
-        <div className="internal-nav">
-          <div>
-            <h1>Download it for free</h1>
-            <span>
-              A mobile landing page is the important and essentials amount
-              product
-            </span>
+        <div className="inner-line right">
+          <div className="percent right">Nov 2021</div>
+          <div className="line-detail right">
+            <h4>The Poniez Need a Home</h4>
           </div>
         </div>
-        <div className="internal-nav">
-          <div>
-            <h1>Enjoy this App</h1>
-            <span>
-              A mobile landing page is the important and essentials amount
-              product
-            </span>
+        <div className="inner-line left">
+          <div className="percent left">Q1 2022</div>
+          <div className="line-detail left">
+            <h4>Poniez Season 2</h4>
+          </div>
+        </div>
+        <div className="inner-line right">
+          <div className="percent right">Q2 2022</div>
+          <div className="line-detail right">
+            <h4>Watch this space</h4>
           </div>
         </div>
       </div>
