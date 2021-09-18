@@ -123,27 +123,41 @@ const CustomizedAccordions: React.FC = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              <h3>When will Poniez be available?</h3>
-              <span>
+              <span className="inner-question-faq">
+                When will Poniez be available?
+              </span>
+              <span className="inner-answer-faq">
                 Our scheduled launch date for Poniez Season 1 is September 24th
                 at 3pm EST. Plan on being at The Poniez Union right around that
                 time to make sure your wallet is connected and you have enough
                 ETH for your Poniez and also the gas
               </span>
-              <h3>How much are The Poniez?</h3>
-              <span>Poniez season 1 are all priced at .0325 ETH + Gas.</span>
-              <h3>Is there a limit to how many I can buy?</h3>
-              <span>There is a limit of 10 Poniez per transaction.</span>
-              <h3>What do I need?</h3>
-              <span>
+              <span className="inner-question-faq">
+                How much are The Poniez?
+              </span>
+              <span className="inner-answer-faq">
+                Poniez season 1 are all priced at .0325 ETH + Gas.
+              </span>
+              <span className="inner-question-faq">
+                Is there a limit to how many I can buy?
+              </span>
+              <span className="inner-answer-faq">
+                There is a limit of 10 Poniez per transaction.
+              </span>
+              <span className="inner-question-faq">What do I need?</span>
+              <span className="inner-answer-faq">
                 You will need a Metamask Wallet with enough ETH to complete the
                 purchase + the gas fees. If you need help with Metamask, check
                 this link for a quick tutorial on how it works. You will need to
                 connect your wallet by clicking the top right button that says
                 "connect”
               </span>
-              <h3>Can I mint from the contract directly?</h3>
-              <span>Yes you can, the contract address is here</span>
+              <span className="inner-question-faq">
+                Can I mint from the contract directly?
+              </span>
+              <span className="inner-answer-faq">
+                Yes you can, the contract address is here
+              </span>
             </Typography>
           </AccordionDetails>
         </Accordion>
