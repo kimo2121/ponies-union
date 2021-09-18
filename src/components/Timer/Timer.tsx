@@ -68,7 +68,6 @@ const Timer = ({ mintStartAt }: any) => {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
   const [timerVisible, setTimerVisible] = useState(false);
-  console.log(Timer);
   useEffect(() => {
     const timer = setInterval(() => {
       const now = Date.now() / 1000;

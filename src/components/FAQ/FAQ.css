@@ -24,8 +24,9 @@
   font-weight: 700;
   font-size: 20px;
 }
-.MuiAccordionDetails-root p p {
+.MuiAccordionDetails-root p span {
   margin-left: 2vw;
+  display: block;
 }
 .MuiAccordionDetails-root {
   padding: 0 80px;

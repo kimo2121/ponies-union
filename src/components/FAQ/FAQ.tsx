@@ -124,26 +124,26 @@ const CustomizedAccordions: React.FC = () => {
           <AccordionDetails>
             <Typography>
               <h3>When will Poniez be available?</h3>
-              <p>
+              <span>
                 Our scheduled launch date for Poniez Season 1 is September 24th
                 at 3pm EST. Plan on being at The Poniez Union right around that
                 time to make sure your wallet is connected and you have enough
                 ETH for your Poniez and also the gas
-              </p>
+              </span>
               <h3>How much are The Poniez?</h3>
-              <p>Poniez season 1 are all priced at .0325 ETH + Gas.</p>
+              <span>Poniez season 1 are all priced at .0325 ETH + Gas.</span>
               <h3>Is there a limit to how many I can buy?</h3>
-              <p>There is a limit of 10 Poniez per transaction.</p>
+              <span>There is a limit of 10 Poniez per transaction.</span>
               <h3>What do I need?</h3>
-              <p>
+              <span>
                 You will need a Metamask Wallet with enough ETH to complete the
                 purchase + the gas fees. If you need help with Metamask, check
                 this link for a quick tutorial on how it works. You will need to
                 connect your wallet by clicking the top right button that says
                 "connect”
-              </p>
+              </span>
               <h3>Can I mint from the contract directly?</h3>
-              <p>Yes you can, the contract address is here</p>
+              <span>Yes you can, the contract address is here</span>
             </Typography>
           </AccordionDetails>
         </Accordion>
