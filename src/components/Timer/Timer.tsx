@@ -1,4 +1,3 @@
-import { url } from "inspector";
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import "./timer.css";
@@ -11,18 +10,18 @@ const RowContainer = styled.div`
   gap: 1.4vmax;
 `;
 
-const Heading = styled.h1`
-  color: #000000;
-  text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
-  font-family: "RocknRoll One", Sans-serif;
-  font-size: 32px;
-`;
-const Title = styled.p`
-  font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 40px;
-  color: white;
-`;
+// const Heading = styled.h1`
+//   color: #000000;
+//   text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+//   font-family: "RocknRoll One", Sans-serif;
+//   font-size: 32px;
+// `;
+// const Title = styled.p`
+//   font-size: 16px;
+//   line-height: 24px;
+//   margin-bottom: 40px;
+//   color: white;
+// `;
 const Item = styled.div`
   display: flex;
   flex-direction: column;

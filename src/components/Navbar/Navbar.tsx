@@ -1,12 +1,9 @@
 import React, { useRef, useState } from "react";
 import "./navbar.css";
-import { FaEthereum, FaFacebook } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { Link } from "react-scroll";
 import Button from "../Button/Button";
 import { HiMenu } from "react-icons/hi";
-import Logo from "../../assets/images/Logo.png";
 const Navbar: React.FC = () => {
   const [menu, setMenu] = useState(false);
 

@@ -4,7 +4,6 @@ import MuiAccordion from "@material-ui/core/Accordion";
 import MuiAccordionSummary from "@material-ui/core/AccordionSummary";
 import MuiAccordionDetails from "@material-ui/core/AccordionDetails";
 import Typography from "@material-ui/core/Typography";
-import downArrow from "../../assets/images/FAQ.png";
 import "./FAQ.css";
 import { RiArrowDownSLine } from "react-icons/ri";
 

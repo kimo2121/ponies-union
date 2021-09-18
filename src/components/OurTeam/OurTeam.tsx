@@ -1,12 +1,6 @@
 import React, { useEffect } from "react";
 import "./ourTeam.css";
-import { FaFacebookF } from "react-icons/fa";
-import { AiOutlineTwitter } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { AiOutlineGoogle } from "react-icons/ai";
-import team_5 from "../../assets/images/team_5.jpg";
-import team_11 from "../../assets/images/team_11.jpg";
-import team_17 from "../../assets/images/team_17.jpg";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Header from "../Header/Header";
