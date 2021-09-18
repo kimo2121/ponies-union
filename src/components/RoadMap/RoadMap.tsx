@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./roadMap.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Header from "../Header/Header";
 
 const RoadMap: React.FC = () => {
   useEffect(() => {
@@ -10,7 +11,7 @@ const RoadMap: React.FC = () => {
   return (
     <div id="RoadMap" className="road-map">
       {/* <Header header="ROAD MAP" /> */}
-      <h1>RoadMap</h1>
+      <Header header="RoadMap" />
       <div
         data-aos="fade-in"
         data-aos-duration="500"

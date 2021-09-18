@@ -4,7 +4,7 @@
   background-image: radial-gradient(at center center, #ff97e6 0%, #0d1e79 100%);
   justify-content: space-between;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  padding: 10px 30px 10px 20px;
+  padding: 10px 30px 10px 40px;
   align-items: flex-start;
 }
 .nav-links a {
@@ -23,12 +23,12 @@
 }
 .web-nav {
   display: flex;
-  width: 100%;
+  /* width: 30%; */
   justify-content: space-between;
   align-items: center;
 }
 .external-links {
-  width: 30%;
+  /* width: 30%; */
   /* margin-top: 1vh; */
   display: flex;
   align-self: center;

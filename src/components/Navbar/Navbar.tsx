@@ -25,9 +25,6 @@ const Navbar: React.FC = () => {
     <div className="nav-bar">
       <div className="some-wrapper">
         <div className="web-nav">
-          <div className="logo">
-            <img src={Logo} alt="" />
-          </div>
           <div className="nav-links">
             <Link smooth={true} duration={800} to="About">
               About Us
@@ -46,18 +43,12 @@ const Navbar: React.FC = () => {
             <a className="twitter" href="/">
               <FaTwitter />
             </a>
-            {/* <a className="discord" href="/">
-              <FaDiscord />
-            </a> */}
           </div>
         </div>
         <Button className="metamsk-btn" label="Connect" />
       </div>
       <div className="slide-menu">
         <div className="slide-outter">
-          <div className="logo">
-            <img src={Logo} alt="" />
-          </div>
           <button onClick={toggleAccordion} className="menu-slide-btn">
             Menu
             <HiMenu

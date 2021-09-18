@@ -9,6 +9,7 @@ import team_11 from "../../assets/images/team_11.jpg";
 import team_17 from "../../assets/images/team_17.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Header from "../Header/Header";
 const OurTeam: React.FC = () => {
   useEffect(() => {
     AOS.init({
@@ -17,7 +18,7 @@ const OurTeam: React.FC = () => {
   }, []);
   return (
     <div id="Team" className="our-team">
-      <h1>Meet Our Team</h1>
+      <Header header="Meet Our Team" />
       <p data-aos="zoom-in" data-aos-duration="500">
         The Poniez are a cool, inclusive, and a very worldwide bunch. Much like
         the team involved in bringing them to you now. The Poniez team is

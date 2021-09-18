@@ -10,16 +10,18 @@ import banner from "../../assets/images/banner.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Perks from "../../components/Perks/Perks";
+import Header from "../../components/Header/Header";
 
 const Home: React.FC = () => {
   useEffect(() => {
     AOS.init({});
   }, []);
+
   return (
     <div className="home">
       <div className="banner">
         <h1 data-aos="slide-right" data-aos-duration="500">
-          The Poniez Union
+          Welcome to Trick Poniez
         </h1>
         <img src={banner} alt="" />
         <p data-aos="zoom-in" data-aos-duration="500">
@@ -64,9 +66,9 @@ const Home: React.FC = () => {
         </p>
       </div>
       {/* <About /> */}
-      <Timer mintStartAt={1633138400} />
+      <Timer mintStartAt={1632466800} />
       <div className="faq-section">
-        <h1>FAQs</h1>
+        <Header header="FAQs" />
         <div className="question-container">
           <CustomizedAccordions />
         </div>

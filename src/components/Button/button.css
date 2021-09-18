@@ -14,8 +14,3 @@
   color: black;
   cursor: pointer;
 }
-@media screen and (max-width: 1024px) {
-  .metamsk-btn {
-    margin-top: 1.3vh;
-  }
-}

@@ -4,8 +4,11 @@
   background-image: linear-gradient(180deg, #b0f7b1 0%, #e3aeff 100%);
 }
 .road-map > h1 {
-  margin-top: 0;
-  font-size: 24px;
+  margin: 0;
+  font-size: 60px;
+  text-shadow: 10px 0px 10px rgb(0 0 0 / 85%);
+  font-weight: 500;
+  color: white;
 }
 .inner-line {
   margin: 2vh 0 10vh 0;

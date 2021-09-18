@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./perks.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Header from "../Header/Header";
 const Perks: React.FC = () => {
   useEffect(() => {
     AOS.init({
@@ -10,7 +11,7 @@ const Perks: React.FC = () => {
   }, []);
   return (
     <div className="perks">
-      <h1>Perks</h1>
+      <Header header="Perks" />
       <div
         data-aos="slide-left"
         data-aos-duration="500"
